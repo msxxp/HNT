@@ -204,5 +204,6 @@ void MainWindow::on_comboBox_currentIndexChanged(int index)
     if( tempRect.bottom() > screen.bottom()) tempRect.setBottom(screen.bottom());
     this->setGeometry(tempRect);
     QRect rc = this->geometry();
+
     this->update();
 }
